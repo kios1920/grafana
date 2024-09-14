@@ -1,0 +1,221 @@
+ClusterName,EvaluationName,TotalItems,QtyComplianceYES,QtyComplianceNO,PercentComplianceYES,PercentComplianceNO
+AZ-EU-PV-PRD-CE-MFE-AKS-01,10_socket_closure_compliance,52,0,52,0.00%,100.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,11_replica_count_compliance,189,6,183,3.17%,96.83%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,12_node_affinity_compliance,43,0,43,0.00%,100.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,13_pod_disruption_budget_compliance,3,3,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,14_resource_limits_compliance,43,34,9,79.07%,20.93%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,15_cpu_request_compliance,101,0,101,0.00%,100.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,16_disable_cpu_limits_compliance,101,101,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,17_namespace_limitrange_compliance,17,17,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,18_pod_qos_compliance,52,42,10,80.77%,19.23%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,19_kubernetes_compliance,383,0,383,0.00%,100.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,1_check_readiness,56,14,42,25.00%,75.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,20_kubernetes_commercial_compliance,383,0,383,0.00%,100.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,21_kubernetes_security_compliance,383,0,383,0.00%,100.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,22_logging_compliance,52,0,52,0.00%,100.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,23_sidecar_logging_compliance,52,52,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,24_stateless_containers_compliance,56,28,28,50.00%,50.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,25_hpa_usage_compliance,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-MFE-AKS-01,27_cluster_autoscaler_compliance,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-MFE-AKS-01,28_config_exteriorization_compliance,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-MFE-AKS-01,29_SecretsMountValidation,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-MFE-AKS-01,2_crash_events,52,17,35,32.69%,67.31%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,30_NamespaceLimitRangeValidation,18,0,18,0.00%,100.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,31_NamespaceResourceQuotaValidation,18,0,18,0.00%,100.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,32_kubernetes_pod_security_policies,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-MFE-AKS-01,33_PodPrivilegedCheck,52,48,4,92.31%,7.69%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,34_PodReadOnlyFilesystemCheck,52,7,45,13.46%,86.54%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,35_PodRootUserCheck,52,52,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,37_kubernetes_privilege_escalation,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-MFE-AKS-01,38_NetworkPolicyCheck,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-MFE-AKS-01,39_ConservativeNetworkPolicyCheck,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-MFE-AKS-01,3_liveness_probe_info,56,13,43,23.21%,76.79%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,40_DisableAutoMount_Report,31,31,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,41_RBAC_MinimumPrivileges_Check,4,0,4,0.00%,100.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,42_RBAC_GranularRoles_Check,5,0,5,0.00%,100.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,43_ImagePolicyWebhook_Check,4,0,4,0.00%,100.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,43_RBAC_Policies_Report,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-MFE-AKS-01,44_IngressHostUniqueness_Check,4,0,4,0.00%,100.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,45_IngressApprovedDomains_Check,4,0,4,0.00%,100.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,4_kubernetes_compliance,56,50,6,89.29%,10.71%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,5_kubernetes_readiness_probe_compliance,56,56,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,6_kubernetes_retry_policy_compliance,56,0,56,0.00%,100.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,7_kubernetes_connection_handling_compliance,56,0,56,0.00%,100.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,8_kubernetes_pod_grace_period,56,0,56,0.00%,100.00%
+AZ-EU-PV-PRD-CE-MFE-AKS-01,9_CMD_SIGTERM_compliance,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PDF-AKS-01,10_socket_closure_compliance,29,0,29,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,11_replica_count_compliance,56,8,48,14.29%,85.71%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,12_node_affinity_compliance,18,0,18,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,13_pod_disruption_budget_compliance,3,3,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,14_resource_limits_compliance,18,8,10,44.44%,55.56%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,15_cpu_request_compliance,53,0,53,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,16_disable_cpu_limits_compliance,53,53,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,17_namespace_limitrange_compliance,17,17,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,18_pod_qos_compliance,29,19,10,65.52%,34.48%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,19_kubernetes_compliance,175,0,175,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,1_check_readiness,33,16,17,48.48%,51.52%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,20_kubernetes_commercial_compliance,175,0,175,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,21_kubernetes_security_compliance,175,0,175,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,22_logging_compliance,29,0,29,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,23_sidecar_logging_compliance,29,29,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,24_stateless_containers_compliance,33,29,4,87.88%,12.12%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,25_hpa_usage_compliance,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PDF-AKS-01,27_cluster_autoscaler_compliance,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PDF-AKS-01,28_config_exteriorization_compliance,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PDF-AKS-01,29_SecretsMountValidation,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PDF-AKS-01,2_crash_events,29,19,10,65.52%,34.48%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,30_NamespaceLimitRangeValidation,18,0,18,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,31_NamespaceResourceQuotaValidation,18,0,18,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,32_kubernetes_pod_security_policies,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PDF-AKS-01,33_PodPrivilegedCheck,29,25,4,86.21%,13.79%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,34_PodReadOnlyFilesystemCheck,29,7,22,24.14%,75.86%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,35_PodRootUserCheck,29,29,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,37_kubernetes_privilege_escalation,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PDF-AKS-01,38_NetworkPolicyCheck,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PDF-AKS-01,39_ConservativeNetworkPolicyCheck,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PDF-AKS-01,3_liveness_probe_info,33,15,18,45.45%,54.55%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,40_DisableAutoMount_Report,31,31,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,41_RBAC_MinimumPrivileges_Check,4,0,4,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,42_RBAC_GranularRoles_Check,5,0,5,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,43_ImagePolicyWebhook_Check,4,0,4,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,43_RBAC_Policies_Report,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PDF-AKS-01,44_IngressHostUniqueness_Check,4,0,4,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,45_IngressApprovedDomains_Check,4,0,4,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,4_kubernetes_compliance,33,27,6,81.82%,18.18%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,5_kubernetes_readiness_probe_compliance,33,33,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,6_kubernetes_retry_policy_compliance,33,0,33,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,7_kubernetes_connection_handling_compliance,33,0,33,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,8_kubernetes_pod_grace_period,33,0,33,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PDF-AKS-01,9_CMD_SIGTERM_compliance,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PO-AKS-01,10_socket_closure_compliance,67,0,67,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,11_replica_count_compliance,107,20,87,18.69%,81.31%
+AZ-EU-PV-PRD-CE-PO-AKS-01,12_node_affinity_compliance,39,0,39,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,13_pod_disruption_budget_compliance,3,3,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,14_resource_limits_compliance,39,30,9,76.92%,23.08%
+AZ-EU-PV-PRD-CE-PO-AKS-01,15_cpu_request_compliance,113,0,113,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,16_disable_cpu_limits_compliance,113,113,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,17_namespace_limitrange_compliance,24,24,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,18_pod_qos_compliance,67,55,12,82.09%,17.91%
+AZ-EU-PV-PRD-CE-PO-AKS-01,19_kubernetes_compliance,313,0,313,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,1_check_readiness,72,19,53,26.39%,73.61%
+AZ-EU-PV-PRD-CE-PO-AKS-01,20_kubernetes_commercial_compliance,313,0,313,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,21_kubernetes_security_compliance,313,0,313,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,22_logging_compliance,67,0,67,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,23_sidecar_logging_compliance,67,67,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,24_stateless_containers_compliance,72,69,3,95.83%,4.17%
+AZ-EU-PV-PRD-CE-PO-AKS-01,25_hpa_usage_compliance,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PO-AKS-01,27_cluster_autoscaler_compliance,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PO-AKS-01,28_config_exteriorization_compliance,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PO-AKS-01,29_SecretsMountValidation,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PO-AKS-01,2_crash_events,67,23,44,34.33%,65.67%
+AZ-EU-PV-PRD-CE-PO-AKS-01,30_NamespaceLimitRangeValidation,25,0,25,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,31_NamespaceResourceQuotaValidation,25,0,25,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,32_kubernetes_pod_security_policies,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PO-AKS-01,33_PodPrivilegedCheck,67,61,6,91.04%,8.96%
+AZ-EU-PV-PRD-CE-PO-AKS-01,34_PodReadOnlyFilesystemCheck,67,8,59,11.94%,88.06%
+AZ-EU-PV-PRD-CE-PO-AKS-01,35_PodRootUserCheck,67,67,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,37_kubernetes_privilege_escalation,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PO-AKS-01,38_NetworkPolicyCheck,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PO-AKS-01,39_ConservativeNetworkPolicyCheck,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PO-AKS-01,3_liveness_probe_info,72,18,54,25.00%,75.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,40_DisableAutoMount_Report,38,38,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,41_RBAC_MinimumPrivileges_Check,4,0,4,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,42_RBAC_GranularRoles_Check,5,0,5,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,43_ImagePolicyWebhook_Check,4,0,4,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,43_RBAC_Policies_Report,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PO-AKS-01,44_IngressHostUniqueness_Check,4,0,4,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,45_IngressApprovedDomains_Check,4,0,4,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,4_kubernetes_compliance,72,66,6,91.67%,8.33%
+AZ-EU-PV-PRD-CE-PO-AKS-01,5_kubernetes_readiness_probe_compliance,72,72,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,6_kubernetes_retry_policy_compliance,72,0,72,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,7_kubernetes_connection_handling_compliance,72,0,72,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,8_kubernetes_pod_grace_period,72,0,72,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PO-AKS-01,9_CMD_SIGTERM_compliance,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,10_socket_closure_compliance,124,0,124,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,11_replica_count_compliance,171,60,111,35.09%,64.91%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,12_node_affinity_compliance,61,0,61,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,13_pod_disruption_budget_compliance,3,3,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,14_resource_limits_compliance,61,52,9,85.25%,14.75%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,15_cpu_request_compliance,193,0,193,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,16_disable_cpu_limits_compliance,188,188,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,17_namespace_limitrange_compliance,42,42,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,18_pod_qos_compliance,118,104,14,88.14%,11.86%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,19_kubernetes_compliance,476,0,476,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,1_check_readiness,130,22,108,16.92%,83.08%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,20_kubernetes_commercial_compliance,476,0,476,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,21_kubernetes_security_compliance,475,0,475,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,22_logging_compliance,117,0,117,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,23_sidecar_logging_compliance,117,117,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,24_stateless_containers_compliance,123,111,12,90.24%,9.76%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,25_hpa_usage_compliance,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,27_cluster_autoscaler_compliance,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,28_config_exteriorization_compliance,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,29_SecretsMountValidation,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,2_crash_events,124,27,97,21.77%,78.23%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,30_NamespaceLimitRangeValidation,43,0,43,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,31_NamespaceResourceQuotaValidation,43,0,43,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,32_kubernetes_pod_security_policies,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,33_PodPrivilegedCheck,117,109,8,93.16%,6.84%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,34_PodReadOnlyFilesystemCheck,117,9,108,7.69%,92.31%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,35_PodRootUserCheck,117,117,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,37_kubernetes_privilege_escalation,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,38_NetworkPolicyCheck,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,39_ConservativeNetworkPolicyCheck,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,3_liveness_probe_info,130,21,109,16.15%,83.85%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,40_DisableAutoMount_Report,56,56,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,41_RBAC_MinimumPrivileges_Check,4,0,4,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,42_RBAC_GranularRoles_Check,5,0,5,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,43_ImagePolicyWebhook_Check,4,0,4,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,43_RBAC_Policies_Report,Without Data,Without Data,Without Data,N/A,N/A
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,44_IngressHostUniqueness_Check,4,0,4,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,45_IngressApprovedDomains_Check,4,0,4,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,4_kubernetes_compliance,130,124,6,95.38%,4.62%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,5_kubernetes_readiness_probe_compliance,130,130,0,100.00%,0.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,6_kubernetes_retry_policy_compliance,130,0,130,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,7_kubernetes_connection_handling_compliance,130,0,130,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,8_kubernetes_pod_grace_period,130,0,130,0.00%,100.00%
+AZ-EU-PV-PRD-CE-PVYC-AKS-01,9_CMD_SIGTERM_compliance,Without Data,Without Data,Without Data,N/A,N/A
+AZUE-PV-CEP-PRD-AKS-01,10_socket_closure_compliance,222,0,222,0.00%,100.00%
+AZUE-PV-CEP-PRD-AKS-01,11_replica_count_compliance,573,44,529,7.68%,92.32%
+AZUE-PV-CEP-PRD-AKS-01,12_node_affinity_compliance,155,0,155,0.00%,100.00%
+AZUE-PV-CEP-PRD-AKS-01,13_pod_disruption_budget_compliance,2,2,0,100.00%,0.00%
+AZUE-PV-CEP-PRD-AKS-01,14_resource_limits_compliance,155,149,6,96.13%,3.87%
+AZUE-PV-CEP-PRD-AKS-01,15_cpu_request_compliance,391,0,391,0.00%,100.00%
+AZUE-PV-CEP-PRD-AKS-01,16_disable_cpu_limits_compliance,391,391,0,100.00%,0.00%
+AZUE-PV-CEP-PRD-AKS-01,17_namespace_limitrange_compliance,31,31,0,100.00%,0.00%
+AZUE-PV-CEP-PRD-AKS-01,18_pod_qos_compliance,222,215,7,96.85%,3.15%
+AZUE-PV-CEP-PRD-AKS-01,19_kubernetes_compliance,1315,0,1315,0.00%,100.00%
+AZUE-PV-CEP-PRD-AKS-01,1_check_readiness,234,16,218,6.84%,93.16%
+AZUE-PV-CEP-PRD-AKS-01,20_kubernetes_commercial_compliance,1315,0,1315,0.00%,100.00%
+AZUE-PV-CEP-PRD-AKS-01,21_kubernetes_security_compliance,1315,0,1315,0.00%,100.00%
+AZUE-PV-CEP-PRD-AKS-01,22_logging_compliance,220,0,220,0.00%,100.00%
+AZUE-PV-CEP-PRD-AKS-01,23_sidecar_logging_compliance,220,220,0,100.00%,0.00%
+AZUE-PV-CEP-PRD-AKS-01,24_stateless_containers_compliance,232,209,23,90.09%,9.91%
+AZUE-PV-CEP-PRD-AKS-01,25_hpa_usage_compliance,Without Data,Without Data,Without Data,N/A,N/A
+AZUE-PV-CEP-PRD-AKS-01,27_cluster_autoscaler_compliance,Without Data,Without Data,Without Data,N/A,N/A
+AZUE-PV-CEP-PRD-AKS-01,28_config_exteriorization_compliance,Without Data,Without Data,Without Data,N/A,N/A
+AZUE-PV-CEP-PRD-AKS-01,29_SecretsMountValidation,Without Data,Without Data,Without Data,N/A,N/A
+AZUE-PV-CEP-PRD-AKS-01,2_crash_events,222,25,197,11.26%,88.74%
+AZUE-PV-CEP-PRD-AKS-01,30_NamespaceLimitRangeValidation,32,0,32,0.00%,100.00%
+AZUE-PV-CEP-PRD-AKS-01,31_NamespaceResourceQuotaValidation,32,0,32,0.00%,100.00%
+AZUE-PV-CEP-PRD-AKS-01,32_kubernetes_pod_security_policies,Without Data,Without Data,Without Data,N/A,N/A
+AZUE-PV-CEP-PRD-AKS-01,33_PodPrivilegedCheck,220,210,10,95.45%,4.55%
+AZUE-PV-CEP-PRD-AKS-01,34_PodReadOnlyFilesystemCheck,220,15,205,6.82%,93.18%
+AZUE-PV-CEP-PRD-AKS-01,35_PodRootUserCheck,220,220,0,100.00%,0.00%
+AZUE-PV-CEP-PRD-AKS-01,37_kubernetes_privilege_escalation,Without Data,Without Data,Without Data,N/A,N/A
+AZUE-PV-CEP-PRD-AKS-01,38_NetworkPolicyCheck,Without Data,Without Data,Without Data,N/A,N/A
+AZUE-PV-CEP-PRD-AKS-01,39_ConservativeNetworkPolicyCheck,Without Data,Without Data,Without Data,N/A,N/A
+AZUE-PV-CEP-PRD-AKS-01,3_liveness_probe_info,234,13,221,5.56%,94.44%
+AZUE-PV-CEP-PRD-AKS-01,40_DisableAutoMount_Report,41,41,0,100.00%,0.00%
+AZUE-PV-CEP-PRD-AKS-01,41_RBAC_MinimumPrivileges_Check,2,0,2,0.00%,100.00%
+AZUE-PV-CEP-PRD-AKS-01,42_RBAC_GranularRoles_Check,5,0,5,0.00%,100.00%
+AZUE-PV-CEP-PRD-AKS-01,43_ImagePolicyWebhook_Check,4,0,4,0.00%,100.00%
+AZUE-PV-CEP-PRD-AKS-01,43_RBAC_Policies_Report,Without Data,Without Data,Without Data,N/A,N/A
+AZUE-PV-CEP-PRD-AKS-01,44_IngressHostUniqueness_Check,4,0,4,0.00%,100.00%
+AZUE-PV-CEP-PRD-AKS-01,45_IngressApprovedDomains_Check,4,0,4,0.00%,100.00%
+AZUE-PV-CEP-PRD-AKS-01,4_kubernetes_compliance,234,230,4,98.29%,1.71%
+AZUE-PV-CEP-PRD-AKS-01,5_kubernetes_readiness_probe_compliance,234,234,0,100.00%,0.00%
+AZUE-PV-CEP-PRD-AKS-01,6_kubernetes_retry_policy_compliance,234,0,234,0.00%,100.00%
+AZUE-PV-CEP-PRD-AKS-01,7_kubernetes_connection_handling_compliance,234,0,234,0.00%,100.00%
+AZUE-PV-CEP-PRD-AKS-01,8_kubernetes_pod_grace_period,234,0,234,0.00%,100.00%
+AZUE-PV-CEP-PRD-AKS-01,9_CMD_SIGTERM_compliance,Without Data,Without Data,Without Data,N/A,N/A
